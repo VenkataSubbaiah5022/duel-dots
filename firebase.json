@@ -1,0 +1,1 @@
+{"firestore":{"rules":"firestore.rules"},"flutter":{"platforms":{"android":{"default":{"projectId":"dueldots-3f969","appId":"1:372248108528:android:0bbb7ce7be18fcba01d135","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"dueldots-3f969","configurations":{"ios":"1:372248108528:ios:4137cfd3b7ee50ba01d135"}}}}}}
