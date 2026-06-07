@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "372248108528",
-    "project_id": "dueldots-3f969",
-    "storage_bucket": "dueldots-3f969.firebasestorage.app"
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id": "YOUR_PROJECT_ID",
+    "storage_bucket": "YOUR_PROJECT_ID.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:372248108528:android:0bbb7ce7be18fcba01d135",
+        "mobilesdk_app_id": "YOUR_ANDROID_APP_ID",
         "android_client_info": {
           "package_name": "com.dueldots.duel_dots"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyACcNrzTbDeT3TMuskikw1g40j-MkLwTiQ"
+          "current_key": "YOUR_ANDROID_API_KEY"
         }
       ],
       "services": {

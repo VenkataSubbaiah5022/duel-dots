@@ -35,16 +35,22 @@ flutter pub get
 
 ### 2. Configure Firebase
 
+Firebase config files are **not** in this repo (see `.gitignore`). Each developer generates them locally:
+
 ```bash
 dart pub global activate flutterfire_cli
+firebase login
 flutterfire configure --project=dueldots-3f969 --platforms=android,ios -y --overwrite-firebase-options
 ```
 
 > **Note:** Use the **Project ID** (`dueldots-3f969`), not the display name (`dueldots`). Run `firebase projects:list` to find yours.
 
-This generates `lib/firebase_options.dart` and downloads platform config files:
+This generates (gitignored, local only):
+- `lib/firebase_options.dart`
 - `android/app/google-services.json`
 - `ios/Runner/GoogleService-Info.plist`
+
+Templates: `lib/firebase_options.dart.example`, `android/app/google-services.json.example`
 
 ### 3. Enable Firebase services
 

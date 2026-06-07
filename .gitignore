@@ -98,6 +98,12 @@ android/app/upload-keystore.jks
 *.pem
 secrets/
 
+# Firebase — generate locally via `flutterfire configure`
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+.firebaserc
+
 # Firebase local deploy cache
 .firebase/
 
